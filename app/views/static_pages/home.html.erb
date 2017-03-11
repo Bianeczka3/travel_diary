@@ -1,0 +1,8 @@
+<div>
+  <% @cities.each do |city| %>
+  <div>
+    <div><%= image_tag city.picture.url (:medium) %></div>
+    <div><%= city.name %></div>
+  </div>
+  <% end %>
+</div>
